@@ -83,7 +83,7 @@ public class KeyAlgorithm {
 //        int[] alg = {VK_LEFT, VK_DOWN, VK_DOWN, 
 //                     VK_RIGHT, VK_DOWN, VK_DOWN};
         
-        int[] alg = {VK_DOWN, VK_RIGHT};
+        int[] alg = LDDRDD;
         keyAlg.setAlgorithm(alg);
         
         keyAlg.performAlgorithm();
